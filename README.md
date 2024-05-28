@@ -55,7 +55,9 @@ containing the English text to translate:
 Example using cURL:
 
 curl -X POST -H "Content-Type: application/json" -d '{"text": "Hello,
-how are you?"}' http://localhost:3000/translate
+how are you?"}'
+
+- This site is live at https://aarohias.github.io/restApi-testing/
 
 4. Receive the translated text in French in the response:
 {
